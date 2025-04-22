@@ -7,14 +7,14 @@ NC='\033[0m'
 #sc
   echo -e "                                                       "
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
-  echo -e "${BLUE}[+]                   LICENSE OFFICIAL RYUU                      [+]>
+  echo -e "${BLUE}[+]                   LICENSE OFFICIAL RYUU         [+]>
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "                                                       "
   echo -e "${YELLOW}MASUKIN TOKEN LU! :${NC}"
   read -r USER_TOKEN
   if [ "$USER_TOKEN" = "muin" ]; then
     echo -e "${GREEN}AKSES BERHASIL${NC}}"
-    bash <(curl -s https://raw.githubusercontent.com/RyuSukaCMD/key/main/start.sh)
+    bash <(curl -s https://raw.githubusercontent.com/RyuSukaCMD/key/main/install.sh)
   else
     echo -e "${RED}Token Salah!${NC}"
     exit 1
