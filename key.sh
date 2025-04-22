@@ -17,5 +17,6 @@ NC='\033[0m'
     bash <(curl -s https://raw.githubusercontent.com/RyuSukaCMD/key/main/install.sh)
   else
     echo -e "${RED}Token Salah!${NC}"
+    fi
     exit 1
   clear
