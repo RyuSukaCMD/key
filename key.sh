@@ -7,7 +7,7 @@ NC='\033[0m'
 #sc
   echo -e "                                                       "
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
-  echo -e "${BLUE}[+]                   LICENSE OFFICIAL RYUU         [+]>
+  echo -e "${BLUE}[+]                   LICENSE OFFICIAL RYUU         [+]>${NC}"
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "                                                       "
   echo -e "${YELLOW}MASUKIN TOKEN LU! :${NC}"
@@ -18,5 +18,4 @@ NC='\033[0m'
   else
     echo -e "${RED}Token Salah!${NC}"
     exit 1
-  fi
   clear
